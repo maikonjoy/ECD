@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a67d5db5-a0b7-4bfe-b888-14ef1e3567a4}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <UseIISExpress>true</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="DADOS_ENCONTRISTA.txt" />
+    <Content Include="gercontro\static\gercontro\css\fonts\font-awesome-4.2.0\css\font-awesome.css" />
+    <Content Include="gercontro\static\gercontro\css\fonts\font-awesome-4.2.0\css\font-awesome.min.css" />
+    <Content Include="gercontro\static\gercontro\css\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="gercontro\static\gercontro\css\img\breadcrumbs-bg.gif" />
+    <Content Include="gercontro\static\gercontro\css\img\bx_loader.gif" />
+    <Content Include="gercontro\static\gercontro\css\img\controls.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\blank.gif" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancybox-x.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancybox-y.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancybox.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_close.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_loading.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_nav_left.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_nav_right.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_e.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_n.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_ne.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_nw.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_s.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_se.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_sw.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_shadow_w.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_title_left.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_title_main.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_title_over.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\fancy_title_right.png" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="gercontro\static\gercontro\css\img\fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="gercontro\static\gercontro\css\img\gray_jean.png" />
+    <Content Include="gercontro\static\gercontro\css\img\icon-arrow-right.png" />
+    <Content Include="gercontro\static\gercontro\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gercontro\static\gercontro\imgs\card.png" />
+    <Content Include="gercontro\static\gercontro\imgs\cracha.png" />
+    <Content Include="gercontro\static\gercontro\imgs\loading.gif" />
+    <Content Include="gercontro\static\gercontro\imgs\logo.jpg" />
+    <Content Include="gercontro\static\gercontro\js\kickstart.js" />
+    <Content Include="gercontro\templates\gercontro\layouts\msgAlerta.html" />
+    <Content Include="gercontro\templates\gercontro\layouts\msgErro.html" />
+    <Content Include="gercontro\templates\gercontro\layouts\msgSucesso.html" />
+    <Content Include="gercontro\templates\gercontro\revisarEncontristas.html" />
+    <Content Include="gercontro\templates\gercontro\escalaServos.html" />
+    <Content Include="gercontro\templates\gercontro\emiteCrachas.html" />
+    <Content Include="gercontro\templates\gercontro\departamentos.html" />
+    <Content Include="gercontro\templates\gercontro\servos.html" />
+    <Content Include="gercontro\templates\gercontro\encontristas.html" />
+    <Content Include="gercontro\templates\gercontro\encontros.html" />
+    <Content Include="gercontro\templates\gercontro\forms\frm_encontrista.html" />
+    <Content Include="gercontro\templates\gercontro\forms\frm_encontros.html" />
+    <Content Include="gercontro\templates\gercontro\forms\frm_sitio.html" />
+    <Content Include="gercontro\templates\gercontro\igrejas.html" />
+    <Content Include="gercontro\templates\gercontro\index.html" />
+    <Content Include="gercontro\templates\gercontro\layout.html" />
+    <Content Include="gercontro\templates\gercontro\layouts\cracha.html" />
+    <Content Include="gercontro\templates\gercontro\sitios.html" />
+    <Content Include="leiame.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bin\wfastcgi.py" />
+    <Compile Include="ECD\p_encontristas.py" />
+    <Compile Include="ECD\p_encontros.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ECD\p_departamento.py" />
+    <Compile Include="ECD\p_escalas.py" />
+    <Compile Include="ECD\p_servos.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ECD\p_sitios.py" />
+    <Compile Include="ECD\settings.py" />
+    <Compile Include="ECD\urls.py" />
+    <Compile Include="ECD\wsgi.py" />
+    <Compile Include="ECD\__init__.py" />
+    <Compile Include="gercontro\admin.py" />
+    <Compile Include="gercontro\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gercontro\models.py" />
+    <Compile Include="gercontro\views.py" />
+    <Compile Include="gercontro\__init__.py" />
+    <Compile Include="manage.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin" />
+    <Folder Include="ECD" />
+    <Folder Include="gercontro" />
+    <Folder Include="gercontro\static\" />
+    <Folder Include="gercontro\static\gercontro\" />
+    <Folder Include="gercontro\static\gercontro\css" />
+    <Folder Include="gercontro\static\gercontro\css\fonts\" />
+    <Folder Include="gercontro\static\gercontro\css\fonts\font-awesome-4.2.0\" />
+    <Folder Include="gercontro\static\gercontro\css\fonts\font-awesome-4.2.0\css" />
+    <Folder Include="gercontro\static\gercontro\css\fonts\font-awesome-4.2.0\fonts" />
+    <Folder Include="gercontro\static\gercontro\css\img" />
+    <Folder Include="gercontro\static\gercontro\css\img\fancybox" />
+    <Folder Include="gercontro\static\gercontro\fonts" />
+    <Folder Include="gercontro\static\gercontro\imgs\" />
+    <Folder Include="gercontro\static\gercontro\js" />
+    <Folder Include="gercontro\templates\" />
+    <Folder Include="gercontro\templates\gercontro" />
+    <Folder Include="gercontro\templates\gercontro\forms" />
+    <Folder Include="gercontro\templates\gercontro\layouts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:45021/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>True</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

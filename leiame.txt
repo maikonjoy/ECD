@@ -1,0 +1,2 @@
+Execute o serverON.bat para ativar o servidor Python.
+Em seguida acesse o endereço da porta indicada na tela do cmd.

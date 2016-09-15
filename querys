@@ -1,0 +1,4 @@
+INSERT INTO "gercontro_igreja" VALUES ("1","IBRS Sede","João Batista Rodrigues");
+INSERT INTO "gercontro_igreja" VALUES ("2","IBRS São Judas Tadeu","José Wilson Ferreira");
+INSERT INTO "gercontro_igreja" VALUES ("3","IBRS Nova Vista","Wilton");
+INSERT INTO "gercontro_igreja" VALUES ("4","IBRS Minas Caixa","Jorge");
